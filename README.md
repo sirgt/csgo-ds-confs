@@ -16,3 +16,8 @@ and a bash script to lauch the server
 ```
 ~/launch-csgo-ds.sh
 ```
+# Update
+First sistem update and then
+```
+steamcmd +force_install_dir ~/csgo-ds/ +login anonymous +app_update 740 +quit
+```
