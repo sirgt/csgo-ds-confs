@@ -23,6 +23,10 @@ case $1 in
 		echo "Demolition"
 		~/csgo-ds/srcds_run -game csgo -net_port_try 1 +game_type 1 +game_mode 1 +mapgroup mg_demolition +sv_setsteamaccount XXXXXXXXXX
 		;;
+	danger)
+		echo "DangerZone a.k.a. 4nite-like"
+		~/csgo-ds/srcds_run -game csgo -net_port_try 1 +game_type 6 +game_mode 0 +map dz_blacksite +sv_setsteamaccount XXXXXXXXXX
+		;;
 	update)
 		echo "updating"
 		steamcmd +force_install_dir ~/csgo-ds/ +login anonymous +app_update 740 +quit
