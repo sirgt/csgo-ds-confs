@@ -2,7 +2,7 @@
 # XXXXXXXXXX = your_steam_id
 
 if [ -z $1 ]; then
-	echo "Need Game type (casual, competitive, arms, demo, update)"
+	echo "Need Game type (casual, competitive, arms, demo, danger, update)"
 	exit 1
 fi
 
