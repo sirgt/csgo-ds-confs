@@ -5,9 +5,9 @@
 Because I'm Lazy and don't want to google all how to do this again.
 
 # How? 
-First of all you have to do a [normal](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers#Advanced_Configuration) installation of your CSGO dedicated server then;
+First of all you have to do a [normal](https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers) installation of your CSGO dedicated server then;
 
-This repo have two files that goes inside the configuration 
+This repo have the following files that goes inside the configuration 
 ```
 ~/csgo/gamemodes_server.txt
 ~/csgo/mapcycle.txt
@@ -18,8 +18,10 @@ and a bash script to lauch the server
 ```
 ~/launch-csgo-ds.sh
 ```
-# Update
-First system update and then
+
+# Game Launch
 ```
-steamcmd +force_install_dir ~/csgo-ds/ +login anonymous +app_update 740 +quit
+~/launch-csg-ds.sh [casual|competitive|arms|demo|danger|update]
 ```
+
+:)
