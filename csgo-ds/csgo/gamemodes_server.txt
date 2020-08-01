@@ -74,6 +74,7 @@
         "ar_shoots"             "armsrace"
         "ar_lunacy"             "armsrace"
         "ar_monastery"  "armsrace"
+		"ar_dizzy" 		"armsrace"
 
 		"weaponprogression_ct"
 		{
@@ -161,6 +162,23 @@
 				"de_train_se"		""
 				"de_inferno_se"		""
 				"de_aztec_se"		""
+			}
+		}
+
+		"mg_bolops_de"									// mapgroup definition
+		{
+			"name"			"mg_bolops_de"
+			"maps"
+			{
+				"de_overpass"		""
+				"de_swamp"			""
+				"de_vertigo"		""
+				"de_stmarc"			""
+				"de_mirage"			""
+				"de_inferno"		""
+				"de_cache"			""
+				"de_anubis"			""
+				"de_bank"			""
 			}
 		}
 	}

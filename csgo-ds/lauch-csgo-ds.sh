@@ -27,6 +27,10 @@ case $1 in
 		echo "DangerZone a.k.a. 4nite-like"
 		~/csgo-ds/srcds_run -game csgo -net_port_try 1 +game_type 6 +game_mode 0 +map dz_blacksite +sv_setsteamaccount XXXXXXXXXX
 		;;
+	deathmatch)
+		echo "Deathmatch"
+		~/csgo-ds/srcds_run -game csgo -net_port_try 1 +game_type 1 +game_mode 2 +mapgroup mg_allclassic +sv_setsteamaccount EB1A6E4160CE5B1771135445CA9052A4
+		;;
 	update)
 		echo "updating"
 		steamcmd +force_install_dir ~/csgo-ds/ +login anonymous +app_update 740 +quit
