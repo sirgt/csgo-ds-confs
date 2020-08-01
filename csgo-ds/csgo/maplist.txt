@@ -25,3 +25,4 @@ gd_rialto
 de_overpass
 de_shortdust
 de_shortnuke
+de_vertigo
