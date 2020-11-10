@@ -162,6 +162,15 @@
 				"de_train_se"		""
 				"de_inferno_se"		""
 				"de_aztec_se"		""
+				"de_overpass"		""
+				"de_swamp"			""
+				"de_vertigo"		""
+				"de_stmarc"			""
+				"de_mirage"			""
+				"de_inferno"		""
+				"de_cache"			""
+				"de_anubis"			""
+				"de_bank"			""
 			}
 		}
 

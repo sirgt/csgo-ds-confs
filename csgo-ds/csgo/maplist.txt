@@ -16,7 +16,6 @@ de_stmarc
 de_train
 training1
 ar_dizzy
-ar_lunacy
 cs_agency
 cs_militia
 de_anubis
